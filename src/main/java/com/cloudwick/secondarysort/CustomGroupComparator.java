@@ -14,9 +14,7 @@ public class CustomGroupComparator extends WritableComparator {
 		
 		TextPair tp1 = (TextPair)keyA;
 		TextPair tp2 = (TextPair)keyB;
-		
 		int result = tp1.compareTo2(tp2);
-		
 		return result;
 		
 	}
